@@ -189,6 +189,27 @@ WHERE Payment_Method = 'UPI';
 SELECT * FROM UPI_Payment;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Successful.png)
+
+---
+
+### 8️⃣ Find the average customer rating per vehicle type:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW AVG_Cust_Rating AS
+SELECT Vehicle_Type, AVG(Customer_Rating) AS avg_customer_rating
+FROM bookings
+GROUP BY Vehicle_Type;
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM AVG_Cust_Rating;
+```
+
 ![Description of the screenshot]()
 
 ---
