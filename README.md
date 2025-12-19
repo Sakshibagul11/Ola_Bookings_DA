@@ -35,6 +35,9 @@ The main objective of this project is to extract meaningful insights and statist
 
 ---
 
+<details>
+<summary>SQL 📊</summary>
+
 ## 🏗️ Database Setup
 
 ```sql
@@ -252,6 +255,40 @@ WHERE Incomplete_Rides = 'Yes';
 SELECT * FROM Incomplete_Rides_Reason;
 ```
 
-![Description of the screenshot]()
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Incomplete_rides.png)
+
+
+</details>
+
+---
+
+<details>
+    <summary>Power BI 📈</summary>
+  
+# OLA Data Analysis in Power BI 📊
+
+This Power BI project provides a comprehensive analysis of OLA's operational and customer data, focusing on ride volume, customer ratings, revenue, and performance metrics. The analysis leverages dynamic dashboards, interactive charts, and key performance indicators (KPIs) to identify trends and insights.
+
+## ✨ Key Features
+
+📌 **Ride Volume Analysis**: Tracks ride volume over time, helping to identify peak demand periods.
+
+📌 **Booking Status Breakdown**: Visualizes the proportion of completed, canceled, and pending rides.
+
+📌 **Top 5 Vehicle Types**: Highlights the most popular vehicle types based on ride distance.
+
+📌 **Cancellation Insights**: Analyzes reasons for ride cancellations to improve customer experience.
+
+📌 **Revenue Insights**: Breaks down revenue by payment methods to understand customer preferences.
+
+📌 **Top Customers**: Identifies the top 5 customers based on their total booking value.
+
+📌 **Driver Ratings**: Analyzes driver rating distribution to ensure service quality.
+
+📌 **Customer vs. Driver Ratings**: Compares customer and driver ratings to identify gaps in satisfaction.
+
+---
+
+![App Screenshot](https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/Screenshot%202024-12-15%20195004.png)
 
 ---
