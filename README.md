@@ -210,6 +210,27 @@ GROUP BY Vehicle_Type;
 SELECT * FROM AVG_Cust_Rating;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Avg_Rating.png)
+
+---
+
+### 9️⃣ Calculate the total booking value of rides completed successfully:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW total_successful_ride_value AS
+SELECT SUM(Booking_Value) AS total_successful_ride_value
+FROM bookings
+WHERE Booking_Status = 'Success';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM total_successful_ride_value;
+```
+
 ![Description of the screenshot]()
 
 ---
