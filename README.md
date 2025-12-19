@@ -146,6 +146,28 @@ WHERE cancelled_Rides_by_Driver = 'Personal & Car related issue';
 SELECT * FROM Rides_cancelled_by_Drivers_P_C_Issues;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Count_.png)
+
+---
+
+### 6️⃣ Find the maximum and minimum driver ratings for Prime Sedan bookings:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW Max_Min_Driver_Rating AS
+SELECT MAX(Driver_Ratings) AS max_rating,
+       MIN(Driver_Ratings) AS min_rating
+FROM bookings
+WHERE Vehicle_Type = 'Prime Sedan';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM Max_Min_Driver_Rating;
+```
+
 ![Description of the screenshot]()
 
 ---
