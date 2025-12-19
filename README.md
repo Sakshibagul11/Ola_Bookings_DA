@@ -102,6 +102,29 @@ WHERE Booking_Status = 'cancelled by Customer';
 SELECT * FROM cancelled_rides_by_customers;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Count.png)
+
+---
+
+### 4️⃣ List the top 5 customers who booked the highest number of rides:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW Top_5_Customers AS
+SELECT Customer_ID, COUNT(Booking_ID) AS total_rides
+FROM bookings
+GROUP BY Customer_ID
+ORDER BY total_rides DESC
+LIMIT 5;
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM Top_5_Customers;
+```
+
 ![Description of the screenshot]()
 
 ---
