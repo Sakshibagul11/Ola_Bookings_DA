@@ -60,4 +60,27 @@ WHERE Booking_Status = 'Success';
 ```sql
 SELECT * FROM Successful_Bookings;
 ```
-(https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/SQL%20images/Screenshot%202024-12-16%20062720.png)
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/success_bookings.png)
+
+---
+
+### 2️⃣ Find the average ride distance for each vehicle type:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW ride_distance_for_each_vehicle AS
+SELECT Vehicle_Type, AVG(Ride_Distance) AS avg_distance
+FROM bookings
+GROUP BY Vehicle_Type;
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM ride_distance_for_each_vehicle;
+```
+
+![Description of the screenshot](https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/SQL%20images/Screenshot%202024-12-16%20063354.png)
+
+---
