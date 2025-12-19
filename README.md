@@ -81,6 +81,27 @@ GROUP BY Vehicle_Type;
 SELECT * FROM ride_distance_for_each_vehicle;
 ```
 
-![Description of the screenshot](https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/SQL%20images/Screenshot%202024-12-16%20063354.png)
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/vehicle.png)
+
+---
+
+### 3️⃣ Get the total number of cancelled rides by customers:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW cancelled_rides_by_customers AS
+SELECT COUNT(*) AS total_cancelled_rides
+FROM bookings
+WHERE Booking_Status = 'cancelled by Customer';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM cancelled_rides_by_customers;
+```
+
+![Description of the screenshot]()
 
 ---
