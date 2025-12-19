@@ -231,6 +231,27 @@ WHERE Booking_Status = 'Success';
 SELECT * FROM total_successful_ride_value;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Total_successful_bookings.png)
+
+---
+
+### 🔟 List all incomplete rides along with the reason:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW Incomplete_Rides_Reason AS
+SELECT Booking_ID, Incomplete_Rides_Reason
+FROM bookings
+WHERE Incomplete_Rides = 'Yes';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM Incomplete_Rides_Reason;
+```
+
 ![Description of the screenshot]()
 
 ---
