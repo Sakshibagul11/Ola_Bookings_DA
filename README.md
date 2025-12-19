@@ -357,7 +357,7 @@ To conduct a comprehensive analysis of OLA's ride data, focusing on key aspects 
   <li>Top 5 Vehicle Types by Ride Distance: Show the top 5 vehicle types based on ride distance.</li>  
   <br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/Screenshot%202024-12-15%20201113.png"  />
+    <img src="https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Vehicle_type_img.png"/>
 </div>
 </ul>
 
@@ -368,7 +368,7 @@ To conduct a comprehensive analysis of OLA's ride data, focusing on key aspects 
   <li>Ride Distance Distribution Per Day: Display the distribution of ride distances on a daily basis.</li> 
   <br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/Screenshot%202024-12-15%20201137.png"  />
+    <img src="https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Revenue_img.png" />
 </div> 
 </ul>
 
@@ -378,7 +378,7 @@ To conduct a comprehensive analysis of OLA's ride data, focusing on key aspects 
   <li>Cancelled Rides Reasons (Driver): Show the reasons behind canceled rides by drivers.</li>  
   <br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/Screenshot%202024-12-15%20201201.png"  />
+    <img src="https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Cancellation_img.png"/>
 </div>
 </ul>
 
@@ -388,9 +388,27 @@ To conduct a comprehensive analysis of OLA's ride data, focusing on key aspects 
   <li>Customer Ratings: Display the distribution of ratings given by customers.</li>  
   <br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="https://github.com/PrajwalGpy/OLA-Data-Analyst-Project-Power-BI-And-SQL/blob/main/images/Screenshot%202024-12-15%20201233.png"  />
+    <img src="https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Ratings_img.png"/>
 </div>
 </ul>
 </ol>
 
+## Dashboard Insights
 
+### Key Insights 🔑:
+
+1. **Ride Volume Trends 📉**: Identify peak times and demand fluctuations.
+2. **Booking Status Insights 📋**: Understand the distribution of booking statuses.
+3. **Vehicle Type Performance 🚗**: Discover the most effective vehicle types.
+4. **Revenue Patterns 💸**: Track payment method usage and high-value customers.
+5. **Cancellation Analysis 🔄**: Pinpoint reasons for ride cancellations.
+
+### 🎛 Interactive Features:
+
+- Drill-through options to explore details at multiple levels.
+- Custom slicers for dynamic filtering.
+- KPIs displayed in real-time visuals.
+
+</details>
+
+---
