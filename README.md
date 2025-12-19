@@ -168,6 +168,27 @@ WHERE Vehicle_Type = 'Prime Sedan';
 SELECT * FROM Max_Min_Driver_Rating;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Max_Min_Ratings.png)
+
+---
+
+### 7️⃣ Retrieve all rides where payment was made using UPI:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW UPI_Payment AS
+SELECT *
+FROM bookings
+WHERE Payment_Method = 'UPI';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM UPI_Payment;
+```
+
 ![Description of the screenshot]()
 
 ---
