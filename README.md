@@ -125,6 +125,27 @@ LIMIT 5;
 SELECT * FROM Top_5_Customers;
 ```
 
+![Description of the screenshot](https://github.com/Sakshibagul11/Ola_Bookings_DA/blob/main/Total_Rides.png)
+
+---
+
+### 5️⃣ Get the number of rides cancelled by drivers due to personal and car-related issues:
+
+**📝 Query:**
+
+```sql
+CREATE VIEW Rides_cancelled_by_Drivers_P_C_Issues AS
+SELECT COUNT(*) AS cancelled_by_drivers
+FROM bookings
+WHERE cancelled_Rides_by_Driver = 'Personal & Car related issue';
+```
+
+**📊 Answer:**
+
+```sql
+SELECT * FROM Rides_cancelled_by_Drivers_P_C_Issues;
+```
+
 ![Description of the screenshot]()
 
 ---
